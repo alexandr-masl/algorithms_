@@ -6,6 +6,8 @@ const input = [1, 2, 3 ];
     
 function possibleNumbers(x, index) {
 
+    console.log(index, "mutation", x)
+
     if (index == x.length) {
 
         // for (let i = 0; i < x.length; i++) {
