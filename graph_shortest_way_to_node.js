@@ -151,7 +151,7 @@ connections_matrix = connect_nodes(node_4, node_5, 6, connections_matrix)
 
 connections_matrix = connect_nodes(node_5, node_6, 9, connections_matrix)
 
-console.log("----- MATRIX ------")
+console.log("----- Connections MATRIX ------")
 print_connections_matrix(connections_matrix)
 console.log("-------------------")
 

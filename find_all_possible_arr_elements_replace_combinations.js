@@ -1,7 +1,7 @@
 
 
 
-const input = [1, 2, 3 ];
+const input = [1, 2, 3];
 
     
 function possibleNumbers(x, index) {
@@ -10,18 +10,16 @@ function possibleNumbers(x, index) {
 
     if (index == x.length) {
 
-        // for (let i = 0; i < x.length; i++) {
-        //     console.log(x[i] + " ");
-        // }
-        
         console.log(x)
     }
+
     for (let i = index; i < x.length; i++) {
         
         let temp = x[index];
         x[index] = x[i];
         x[i] = temp;
-
+        
+        // console.log(index + 1)
         possibleNumbers(x, index + 1);
 
         temp = x[index];

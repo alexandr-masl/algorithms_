@@ -13,9 +13,6 @@ function recursion_factorial(integer){
     }
 }
 
-// console.log(recursion_factorial(n))
-
-
 function fibo(n){
 
     if (n == 1){
