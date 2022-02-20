@@ -185,7 +185,5 @@ public class Graph_shortest_way{
         nodes_matrix.print_matrix();
 
         nodes_matrix.find_a_shortest_way(5);
-
-
     };
 };
